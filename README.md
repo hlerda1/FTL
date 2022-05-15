@@ -6,3 +6,8 @@ Esta pagina es un portal de noticias original y de ambito general.
 Index.html agregado
 style.css agregado
 README.md agregado
+
+15/05/2022
+Introduccion de noticias a la pagina principal
+Primeros estilos agregados
+Imagenes y logos cargados

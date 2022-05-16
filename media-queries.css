@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px){
+    #nombre{
+        display: none;
+    }
+    #navbar{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    #menu{
+        display: none;
+    }
+}
+

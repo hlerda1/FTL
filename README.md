@@ -16,3 +16,8 @@ Imagenes y logos cargados
 Agregadas media queries
 Banner de publicidad
 Ajustes de CSS
+
+17/05/2022
+Agregada Pagina de Submit
+Agragada pagina en Construcción
+CSS y Media queries adaptadas

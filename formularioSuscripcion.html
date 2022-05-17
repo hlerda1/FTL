@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Copatible" content="IE=edge">
+        <title>FTL - Formulario de Suscripción</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media-queries.css">
+    </head>
+    <body>
+        <header>
+            <div class="sub-body">                
+                <a href="./index.html">
+                    <img id="sub-img" src="./iconos/Logo2.png" alt="Logo">
+                </a>
+            </div>               
+        </header>
+        <main>
+            <div class="sub-body">
+                <h2>Registrarme</h2>
+            </div>
+            <div class="sub-body">
+                <form action="">
+                    <div class="sub-body">
+                        <!-- <label for="Nombre">Nombre</label> -->
+                        <input type="text" name="Nombre" id="Nombre" minlength="2" maxlength="15" pattern="[a-zA-Z]+" placeholder="Nombre" required>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Apellido">Apellido</label> -->
+                        <input type="text" name="Apellido" id="Apellido" minlength="2" maxlength="15" pattern="[a-zA-Z]+" placeholder="Apellido" required>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Email">Email</label> -->
+                        <input type="email" name="Email" id="Email" placeholder="Email" required>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Contrasena">Contraseña</label> -->
+                        <input type="password" name="Contrasena" id="Contrasena" placeholder="Contraseña" required>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Contrasena">Reescribir Contraseña</label> -->
+                        <input type="password" name="Contrasena" id="Contrasena" placeholder="Reescribir Contraseña" required>
+                    </div>
+                    <div class="sub-body">
+                        <input class="button" type="submit" value="Registrarse" >
+                        <input class="button" type="reset" value="Reset">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

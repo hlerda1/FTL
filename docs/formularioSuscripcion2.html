@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Copatible" content="IE=edge">
+        <title>FTL - Formulario de Suscripción</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../media-queries.css">
+        <script src="../app.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="sub-body">                
+                <a href="./index.html">
+                    <img id="sub-img" src="../iconos/Logo2.png" alt="Logo">
+                </a>
+            </div>               
+        </header>
+        <main>
+            <div class="sub-body">
+                <h2>Registrarme</h2>
+            </div>
+            <div class="sub-body">
+                <form action="">
+                    <div class="sub-body">
+                        <!-- <label for="Nombre">Nombre</label> -->
+                        <!-- <input type="text" name="Nombre" id="Nombre" minlength="2" maxlength="15" pattern="[a-zA-Z]+" placeholder="Nombre" required> -->
+                        <input type="text" id="subNombre" placeholder="Nombre">   
+                    </div>
+                    <div class="sub-body">
+                        <p id="nombreError" class="hiddenError formatoError">Minimo 3 letras</p>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Apellido">Apellido</label> -->
+                        <input type="text" id="subApellido" placeholder="Apellido">
+                    </div>
+                    <div class="sub-body">
+                        <p id="apeError" class="hiddenError formatoError">Minimo 3 letras</p>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Email">Email</label> -->
+                        <input type="text" id="subEmail" placeholder="Email">
+                    </div>
+                    <div class="sub-body">
+                        <p id="emailError" class="hiddenError formatoError">No es un formato aceptable de mail</p>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Contrasena">Contraseña</label> -->
+                        <input type="number" name="telefono" id="telefono" placeholder="Telefono" required>
+                    </div>
+                    <div class="sub-body">
+                        <input type="text" name="direccion" id="direccion" placeholder="Dirección" required>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Contrasena">Contraseña</label> -->
+                        <input type="password" name="Contrasena" id="Contrasena" placeholder="Contraseña" required>
+                    </div>
+                    <div class="sub-body">
+                        <!-- <label for="Contrasena">Reescribir Contraseña</label> -->
+                        <input type="password" name="Contrasena" id="Contrasena" placeholder="Reescribir Contraseña" required>
+                    </div>
+                    <div class="sub-body">
+                        <input class="button" type="submit" value="Registrarse" >
+                        <input class="button" type="reset" value="Reset">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
